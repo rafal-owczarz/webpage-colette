@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Rafał Owczarz">
+  <title>Colette</title>
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/e01c0f7742.js" crossorigin="anonymous"></script>
+  <!-- GoogleFonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;600;700&family=Raleway:wght@400;600&display=swap"
+    rel="stylesheet">
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <!-- Carousel -->
+  <link rel="stylesheet" href="./carousel/css/owl.carousel.css">
+  <link rel="stylesheet" href="./carousel/css/owl.theme.default.css">
+  <script src="./carousel/js/owl.carousel.min.js" defer></script>
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- JS -->
+  <script src="js/main.js" defer></script>
+</head>
+
+<body class="page">
+  <header class="header">
+    <video src="./assets/video/header.mp4" class="header__video" autoplay muted loop></video>
+    <div class="header__shadow"></div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__element">
+          <a href="#" class="nav__link"><i class="fa-brands fa-facebook-f"></i></a>
+        </li>
+        <li class="nav__element">
+          <a href="#" class="nav__link"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li class="nav__element">
+          <a href="#" class="nav__link"><i class="fa-brands fa-linkedin-in"></i></a>
+        </li>
+        <li class="nav__element">
+          <a href="#" class="nav__link"><i class="fa-brands fa-github"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__heading">
+      <h1 data-aos="fade-down" data-aos-delay="100" class="header__title heading h1">Colette</h1>
+      <h3 data-aos="zoom-in" data-aos-delay="450" class="header__description heading h3">Your Adventure Begins Now!
+      </h3>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="hero__wrapper wrapper">
+        <div class="hero__heading">
+          <h2 data-aos="fade-up" data-aos-delay="100" class="hero__title heading h2">Experience is the teacher of all
+            things</h2>
+        </div>
+        <article class="hero__text">
+          <div class="hero__images">
+            <img src="./assets/img/hero1.jpg" alt="Waterfall" class="hero__img">
+            <img src="./assets/img/hero2.jpg" alt="Snowy mountains" class="hero__img">
+            <img src="./assets/img/hero3.jpg" alt="View of the city" class="hero__img">
+          </div>
+          <p class="hero__paragraph">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec
+            urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet
+            viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse
+            potenti.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section class="explore">
+      <div class="explore__wrapper wrapper">
+        <div data-aos="fade-up" data-aos-delay="100" class="explore__image">
+          <img src="./assets/img/explore.jpg" alt="Road in the forest" class="explore__img">
+        </div>
+        <article class="explore__text">
+          <h2 class="explore__title heading h2">Build<br>Something<br>Beautiful</h3>
+            <h4 class="explore__description heading h4"> Cumque commodi veritatis consectetur</h4>
+            <p class="explore__paragraph">
+              Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices
+              sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu,
+              fermentum et, dapibus sed, urna. Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit
+              amet mi ullamcorper vehicula. Integer adipiscing risus a sem.
+            </p>
+        </article>
+      </div>
+    </section>
+    <section class="hot">
+      <div class="hot__shadow"></div>
+      <div class="hot__wrapper wrapper">
+        <h2 data-aos="fade-up" data-aos-delay="100" class="hot__title heading h2">What is hot</h2>
+        <h3 data-aos="fade-up" data-aos-delay="400" class="hot__description heading h3">Morbi in sem quis dui</h3>
+
+        <div class="hot__box">
+          <div class="hot__element">
+            <img src="./assets/img/hot-1.jpg" alt="Man hiking" class="hot__element-img">
+            <div class="hot__element-text">
+              <h2 class="hot__element-title heading h2">Vivamus sit amet</h2>
+              <p class="hot__element-date">30 Jan 2023</p>
+              <p class="hot__element-paragraph">Vivamus sit amet ante est, sit amet rutrum augue. Praesent laoreet
+                aliquet
+                nulla. Aliquam arcu. Proin vel neque non ligula sodales sagittis. Cum sociis...</p>
+              <button class="hot__element-btn">Read More</>
+            </div>
+          </div>
+          <div class="hot__element">
+            <img src="./assets/img/hot-2.jpg" alt="View on the mountain" class="hot__element-img">
+            <div class="hot__element-text">
+              <h2 class="hot__element-title heading h2">Velit esse molestie</h2>
+              <p class="hot__element-date">25 Jan 2023</p>
+              <p class="hot__element-paragraph">Mirum est notare quam littera gothica, quam nunc putamus. Cras non sem
+                sem, at eleifend mi. Vivamus sit amet ante est, sit amet rutrum augue. Cras non sem...</p>
+              <button class="hot__element-btn">Read More</button>
+            </div>
+          </div>
+          <div class="hot__element">
+            <img src="./assets/img/hot-3.jpg" alt="Rainy road" class="hot__element-img">
+            <div class="hot__element-text">
+              <h2 class="hot__element-title heading h2">Integer consectetur</h2>
+              <p class="hot__element-date">17 Jan 2023</p>
+              <p class="hot__element-paragraph">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan...</p>
+              <button class="hot__element-btn">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="welcome">
+      <div class="welcome__wrapper wrapper">
+        <div class="welcome__text">
+          <h2 class="welcome__title heading h2">Welcome to Colette</h2>
+          <p class="welcome__paragraph">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus
+            metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.
+          </p>
+          <h4 class="welcome__subtitle heading h4">Lorem ipsum dolor sit, amet consectetur adipisicing.</h4>
+          <p class="welcome__paragraph">Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum
+            volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus
+            pede arcu, dapibus eu, fermentum et, dapibus sed, urna. Suspendisse mauris. Fusce accumsan mollis eros.</p>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="100" class="welcome__image">
+          <img src="./assets/img/welcome.jpg" alt="View on the mountains" class="welcome__img">
+        </div>
+      </div>
+    </section>
+    <section class="carousel">
+      <div data-aos="fade-up" data-aos-delay="100" class="carousel__wrapper wrapper">
+        <div class="owl-carousel owl-theme">
+          <div class="carousel__item">
+            <div class="carousel__image">
+              <img src="./assets/img/carousel-1.jpg" alt="Winter Landscape" class="carousel__img">
+            </div>
+            <p class="carousel__paragraph">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quae maiores quidem nihil aliquam velit
+              excepturi, repellat dignissimos perferendis necessitatibus quod ut nesciunt.
+            </p>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__image">
+              <img src="./assets/img/carousel-2.jpg" alt="Lake" class="carousel__img">
+            </div>
+            <p class="carousel__paragraph">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quae maiores quidem nihil aliquam velit
+              excepturi, repellat dignissimos perferendis necessitatibus quod ut nesciunt.
+            </p>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__image">
+              <img src="./assets/img/carousel-3.jpg" alt="Road" class="carousel__img">
+            </div>
+            <p class="carousel__paragraph">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quae maiores quidem nihil aliquam velit
+              excepturi, repellat dignissimos perferendis necessitatibus quod ut nesciunt.
+            </p>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__image">
+              <img src="./assets/img/carousel-4.jpg" alt="Sunny Forrest" class="carousel__img">
+            </div>
+            <p class="carousel__paragraph">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quae maiores quidem nihil aliquam velit
+              excepturi, repellat dignissimos perferendis necessitatibus quod ut nesciunt.
+            </p>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__image">
+              <img src="./assets/img/carousel-5.jpg" alt="Waterfall" class="carousel__img">
+            </div>
+            <p class="carousel__paragraph">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quae maiores quidem nihil aliquam velit
+              excepturi, repellat dignissimos perferendis necessitatibus quod ut nesciunt.
+            </p>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__image">
+              <img src="./assets/img/carousel-6.jpg" alt="Footprints in the snow" class="carousel__img">
+            </div>
+            <p class="carousel__paragraph">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quae maiores quidem nihil aliquam velit
+              excepturi, repellat dignissimos perferendis necessitatibus quod ut nesciunt.
+            </p>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__image">
+              <img src="./assets/img/carousel-7.jpg" alt="Bonfire" class="carousel__img">
+            </div>
+            <p class="carousel__paragraph">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quae maiores quidem nihil aliquam velit
+              excepturi, repellat dignissimos perferendis necessitatibus quod ut nesciunt.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__shadow"></div>
+    <div class="footer__contact">
+      <div class="footer__socials">
+        <a href="#" class="footer__link"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="footer__link"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="footer__link"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" class="footer__link"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <p data-aos="fade-up" data-aos-delay="100" class="footer__paragraph">Connect with us today!</p>
+    </div>
+    <div class="footer__nav">
+      <ul class="footer__list">
+        <li class="footer__element">
+          <a href="#" class="footer__link">Velit esse molestie</a>
+        </li>
+        <li class="footer__element">
+          <a href="#" class="footer__link">Integer consectetu</a>
+        </li>
+        <li class="footer__element">
+          <a href="#" class="footer__link">Eodem modo typi</a>
+        </li>
+        <li class="footer__element">
+          <a href="#" class="footer__link">Vivamus sit amet </a>
+        </li>
+        <li class="footer__element">
+          <a href="#" class="footer__link">Curabitur eget nisl</a>
+        </li>
+      </ul>
+      <div class="footer__copy">&copy; Colette 2023 </div>
+    </div>
+  </footer>
+</body>
+
+</html>

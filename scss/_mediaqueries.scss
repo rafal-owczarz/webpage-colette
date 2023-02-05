@@ -1,0 +1,205 @@
+@media (max-width: 1023px) and (orientation: landscape) {
+  .hero {
+    &__text {
+      width: 80%;
+    }
+
+    &__img {
+      height: 20vw;
+    }
+  }
+
+  .explore {
+    &__image {
+      width: 90%;
+    }
+
+    &__img {
+      height: 45vmax;
+    }
+
+    &__text {
+      text-align: center;
+    }
+  }
+
+  .hot {
+    &__box {
+      padding: 2% 10%;
+    }
+
+    &__element-img {
+      height: 30vmax;
+    }
+  }
+
+  .welcome {
+    &__image {
+      margin: 10vmin auto 0;
+      width: 70%;
+    }
+  }
+
+  .carousel {
+    &__image {
+      width: 70%;
+    }
+
+    &__img {
+      height: 25vmax;
+    }
+  }
+
+  .footer {
+    padding: 3% 10%;
+
+    &__nav {
+      margin-top: 10%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav {
+    left: 5%;
+    right: 5%;
+
+    &__list {
+      justify-content: flex-end;
+    }
+  }
+
+  .hero {
+    &__wrapper {
+      @include flexbox(row, flex-start, flex-start);
+      gap: 5%;
+    }
+
+    &__heading {
+      flex-basis: 35%;
+      text-align: right;
+    }
+
+    &__title::after {
+      margin: 20px 0 0 auto;
+    }
+
+    &__text {
+      flex-basis: 65%;
+      margin-top: 0;
+    }
+
+    &__images {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &__img {
+      width: 32%;
+      height: 10vw;
+      margin-top: 0;
+    }
+
+    &__paragraph {
+      font-size: 0.9rem;
+    }
+  }
+
+  .explore {
+    &__wrapper {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 5%;
+    }
+
+    &__title {
+      text-align: left;
+    }
+
+    &__image {
+      margin-top: -5%;
+    }
+
+    &__img {
+      height: 40vmax;
+    }
+  }
+
+  .hot {
+    &__box {
+      padding: 0 5%;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 3vmax;
+    }
+
+    &__element {
+
+      &-title {
+        font-size: 1.2rem;
+      }
+
+      &-date {
+        font-size: .7rem;
+      }
+
+      &-paragraph {
+        margin: 10px 0 2vmax;
+        font-size: .8rem;
+      }
+
+      &-btn {
+        font-size: .8rem;
+      }
+
+      &-img {
+        height: 15vmax;
+      }
+    }
+  }
+
+  .welcome {
+    &__wrapper {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 5%;
+    }
+
+    &__title {
+      text-align: left;
+    }
+
+    &__image {
+      margin-top: -5%;
+    }
+
+    &__img {
+      height: 40vmax;
+    }
+  }
+
+  .carousel {
+    padding: 4% 10%;
+  }
+
+  .owl {
+
+    &-theme &-nav button.owl-prev,
+    &-theme &-nav button.owl-next {
+      padding: 3px 5px !important;
+      font-size: .7rem;
+    }
+  }
+
+  .footer {
+    padding: 3% 10%;
+    font-size: .8rem;
+
+    &__nav {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 3vmax;
+      margin-top: 3%;
+    }
+  }
+}
